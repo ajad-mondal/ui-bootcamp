@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Bootcamp</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Booking</title>
+    <style>
+        .movie-card{
+            width: 30%;
+            margin: 1rem 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        img{
+           height: 15rem;
+        }
+    </style>
+</head>
+<body>
+    <header style="text-align: center;">
+        <h1>Movie Booking</h1>
+    </header>
+    <nav>
+        <label for="language">Language:</label>
+        <select id="language">
+          <option value="All">All</option>
+          <option value="English">English</option>
+          <option value="Hindi">Hindi</option>
+          <option value="Tamil">Tamil</option>
+        </select>
+    </nav>
+    <main style="width: 70%;display: flex;justify-content: center; margin: auto;">
+        <div class="movie-card">
+            <img src="https://www.pinkvilla.com/imageresize/sooryavanshi_4.jpg?width=752&format=webp&t=pvorg" alt="Sooryavanshi hindi movie banner">
+            <p>Sooryavanshi traces the acts and serious antics of DCP Veer Sooryavanshi, the chief of the Anti-Terrorism Squad in India.</p>
+        </div>
+        <div class="movie-card">
+            <img src="https://image.songsuno.com/movie-images/original/movie/master/master-poster.jpg" alt="Master movie banner">
+            <p>An alcoholic professor is sent to a juvenile school, where he clashes with a gangster who uses the school children for criminal activities.</p>
+        </div>
+        <div class="movie-card">
+            <img src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/snh_online_6072x9000_posed_01.jpg" alt="spider man movie banner">
+            <p>With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.</p>
+        </div>
+    </main>
+    <footer style="text-align: center;">
+        <strong>Copyright @ 2022-2023</strong>
+    </footer>
+</body>
+</html>
